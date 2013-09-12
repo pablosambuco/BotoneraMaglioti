@@ -1,0 +1,176 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/BotonBotonera"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Botonera" />
+
+        <Button
+            android:id="@+id/BotonBardero01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bardero - 01 - Dieguez" />
+
+        <Button
+            android:id="@+id/BotonBardero02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bardero - 02 - San Valentin" />
+
+        <Button
+            android:id="@+id/BotonBardero03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bardero - 03 - Valerio Interes" />
+
+        <Button
+            android:id="@+id/BotonBardero04"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bardero - 04 - Aplicaciones" />
+
+        <Button
+            android:id="@+id/BotonBardero05"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bardero - 05 - Mulo" />
+
+        <Button
+            android:id="@+id/BotonBardero06"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bardero - 06 - Seis partidos" />
+
+        <Button
+            android:id="@+id/BotonBardero07"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bardero - 07 - Valerio PES" />
+
+        <Button
+            android:id="@+id/BotonBardero08"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bardero - 08 - Mulo gato" />
+
+        <Button
+            android:id="@+id/BotonBardero09"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bardero - 09 - Gato mulo" />
+
+        <Button
+            android:id="@+id/BotonBardero10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bardero - 10 - Dormir" />
+
+        <Button
+            android:id="@+id/BotonBardero11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bardero - 11 - Que pasa que" />
+
+        <Button
+            android:id="@+id/BotonBostero01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bostero - 01 - No somo" />
+
+        <Button
+            android:id="@+id/BotonBostero02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bostero - 02 - No somo (remix)" />
+
+        <Button
+            android:id="@+id/BotonBostero03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Bostero - 03 - Carpintero" />
+
+        <Button
+            android:id="@+id/BotonEbrio01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Ebrio - 01 - Deudas" />
+
+        <Button
+            android:id="@+id/BotonFiesta01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Fiesta - 01 - Ruido" />
+
+        <Button
+            android:id="@+id/BotonMadrid01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Madrid - 01 - Intratable" />
+
+        <Button
+            android:id="@+id/BotonMadrid02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Madrid - 02 - Gano" />
+
+        <Button
+            android:id="@+id/BotonMisc01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Misc - 01 - Luis" />
+
+        <Button
+            android:id="@+id/BotonMisc02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Misc - 02 - La flecha" />
+
+        <Button
+            android:id="@+id/BotonMisc03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Misc - 03 - Lalalala" />
+
+        <Button
+            android:id="@+id/BotonMusic01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Music - 01 - No culpes" />
+
+        <Button
+            android:id="@+id/BotonMusic02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Music - 02 - Ya tu sabes" />
+
+        <Button
+            android:id="@+id/BotonMusic03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Music - 03 - Adelante" />
+
+        <Button
+            android:id="@+id/BotonMusic04"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Music - 04 - Como dice" />
+
+        <Button
+            android:id="@+id/BotonRata01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Rata - 01 - Cama" />
+    
+    </LinearLayout>
+
+</ScrollView>

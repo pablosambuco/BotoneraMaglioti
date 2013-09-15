@@ -10,166 +10,166 @@
         android:orientation="vertical" >
 
         <Button
-            android:id="@+id/BotonBotonera"
+            android:id="@+id/boton01"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Botonera" />
+            android:text="@string/boton01" />
 
         <Button
-            android:id="@+id/BotonBardero01"
+            android:id="@+id/boton02"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Bardero - 01 - Dieguez" />
+            android:text="@string/boton02" />
 
         <Button
-            android:id="@+id/BotonBardero02"
+            android:id="@+id/boton03"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Bardero - 02 - San Valentin" />
+            android:text="@string/boton03" />
 
         <Button
-            android:id="@+id/BotonBardero03"
+            android:id="@+id/boton04"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Bardero - 03 - Valerio Interes" />
+            android:text="@string/boton04" />
 
         <Button
-            android:id="@+id/BotonBardero04"
+            android:id="@+id/boton05"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Bardero - 04 - Aplicaciones" />
+            android:text="@string/boton05" />
 
         <Button
-            android:id="@+id/BotonBardero05"
+            android:id="@+id/boton06"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Bardero - 05 - Mulo" />
+            android:text="@string/boton06" />
 
         <Button
-            android:id="@+id/BotonBardero06"
+            android:id="@+id/boton07"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Bardero - 06 - Seis partidos" />
+            android:text="@string/boton07" />
 
         <Button
-            android:id="@+id/BotonBardero07"
+            android:id="@+id/boton08"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Bardero - 07 - Valerio PES" />
+            android:text="@string/boton08" />
 
         <Button
-            android:id="@+id/BotonBardero08"
+            android:id="@+id/boton09"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Bardero - 08 - Mulo gato" />
+            android:text="@string/boton09" />
 
         <Button
-            android:id="@+id/BotonBardero09"
+            android:id="@+id/boton10"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Bardero - 09 - Gato mulo" />
+            android:text="@string/boton10" />
 
         <Button
-            android:id="@+id/BotonBardero10"
+            android:id="@+id/boton11"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Bardero - 10 - Dormir" />
+            android:text="@string/boton11" />
 
         <Button
-            android:id="@+id/BotonBardero11"
+            android:id="@+id/boton12"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Bardero - 11 - Que pasa que" />
+            android:text="@string/boton12" />
 
         <Button
-            android:id="@+id/BotonBostero01"
+            android:id="@+id/boton13"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Bostero - 01 - No somo" />
+            android:text="@string/boton13" />
 
         <Button
-            android:id="@+id/BotonBostero02"
+            android:id="@+id/boton14"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Bostero - 02 - No somo (remix)" />
+            android:text="@string/boton14" />
 
         <Button
-            android:id="@+id/BotonBostero03"
+            android:id="@+id/boton15"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Bostero - 03 - Carpintero" />
+            android:text="@string/boton15" />
 
         <Button
-            android:id="@+id/BotonEbrio01"
+            android:id="@+id/boton16"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Ebrio - 01 - Deudas" />
+            android:text="@string/boton16" />
 
         <Button
-            android:id="@+id/BotonFiesta01"
+            android:id="@+id/boton17"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Fiesta - 01 - Ruido" />
+            android:text="@string/boton17" />
 
         <Button
-            android:id="@+id/BotonMadrid01"
+            android:id="@+id/boton18"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Madrid - 01 - Intratable" />
+            android:text="@string/boton18" />
 
         <Button
-            android:id="@+id/BotonMadrid02"
+            android:id="@+id/boton19"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Madrid - 02 - Gano" />
+            android:text="@string/boton19" />
 
         <Button
-            android:id="@+id/BotonMisc01"
+            android:id="@+id/boton20"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Misc - 01 - Luis" />
+            android:text="@string/boton20" />
 
         <Button
-            android:id="@+id/BotonMisc02"
+            android:id="@+id/boton21"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Misc - 02 - La flecha" />
+            android:text="@string/boton21" />
 
         <Button
-            android:id="@+id/BotonMisc03"
+            android:id="@+id/boton22"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Misc - 03 - Lalalala" />
+            android:text="@string/boton22" />
 
         <Button
-            android:id="@+id/BotonMusic01"
+            android:id="@+id/boton23"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Music - 01 - No culpes" />
+            android:text="@string/boton23" />
 
         <Button
-            android:id="@+id/BotonMusic02"
+            android:id="@+id/boton24"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Music - 02 - Ya tu sabes" />
+            android:text="@string/boton24" />
 
         <Button
-            android:id="@+id/BotonMusic03"
+            android:id="@+id/boton25"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Music - 03 - Adelante" />
+            android:text="@string/boton25" />
 
         <Button
-            android:id="@+id/BotonMusic04"
+            android:id="@+id/boton26"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Music - 04 - Como dice" />
+            android:text="@string/boton26" />
 
         <Button
-            android:id="@+id/BotonRata01"
+            android:id="@+id/boton27"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Rata - 01 - Cama" />
+            android:text="@string/boton27" />
     
     </LinearLayout>
 

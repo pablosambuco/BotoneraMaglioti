@@ -24,34 +24,34 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int BotonBardero01=0x7f090001;
-        public static final int BotonBardero02=0x7f090002;
-        public static final int BotonBardero03=0x7f090003;
-        public static final int BotonBardero04=0x7f090004;
-        public static final int BotonBardero05=0x7f090005;
-        public static final int BotonBardero06=0x7f090006;
-        public static final int BotonBardero07=0x7f090007;
-        public static final int BotonBardero08=0x7f090008;
-        public static final int BotonBardero09=0x7f090009;
-        public static final int BotonBardero10=0x7f09000a;
-        public static final int BotonBardero11=0x7f09000b;
-        public static final int BotonBostero01=0x7f09000c;
-        public static final int BotonBostero02=0x7f09000d;
-        public static final int BotonBostero03=0x7f09000e;
-        public static final int BotonBotonera=0x7f090000;
-        public static final int BotonEbrio01=0x7f09000f;
-        public static final int BotonFiesta01=0x7f090010;
-        public static final int BotonMadrid01=0x7f090011;
-        public static final int BotonMadrid02=0x7f090012;
-        public static final int BotonMisc01=0x7f090013;
-        public static final int BotonMisc02=0x7f090014;
-        public static final int BotonMisc03=0x7f090015;
-        public static final int BotonMusic01=0x7f090016;
-        public static final int BotonMusic02=0x7f090017;
-        public static final int BotonMusic03=0x7f090018;
-        public static final int BotonMusic04=0x7f090019;
-        public static final int BotonRata01=0x7f09001a;
         public static final int action_settings=0x7f09001b;
+        public static final int boton01=0x7f090000;
+        public static final int boton02=0x7f090001;
+        public static final int boton03=0x7f090002;
+        public static final int boton04=0x7f090003;
+        public static final int boton05=0x7f090004;
+        public static final int boton06=0x7f090005;
+        public static final int boton07=0x7f090006;
+        public static final int boton08=0x7f090007;
+        public static final int boton09=0x7f090008;
+        public static final int boton10=0x7f090009;
+        public static final int boton11=0x7f09000a;
+        public static final int boton12=0x7f09000b;
+        public static final int boton13=0x7f09000c;
+        public static final int boton14=0x7f09000d;
+        public static final int boton15=0x7f09000e;
+        public static final int boton16=0x7f09000f;
+        public static final int boton17=0x7f090010;
+        public static final int boton18=0x7f090011;
+        public static final int boton19=0x7f090012;
+        public static final int boton20=0x7f090013;
+        public static final int boton21=0x7f090014;
+        public static final int boton22=0x7f090015;
+        public static final int boton23=0x7f090016;
+        public static final int boton24=0x7f090017;
+        public static final int boton25=0x7f090018;
+        public static final int boton26=0x7f090019;
+        public static final int boton27=0x7f09001a;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -91,7 +91,33 @@ public final class R {
     public static final class string {
         public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
-        public static final int hello_world=0x7f060002;
+        public static final int boton01=0x7f060002;
+        public static final int boton02=0x7f060003;
+        public static final int boton03=0x7f060004;
+        public static final int boton04=0x7f060005;
+        public static final int boton05=0x7f060006;
+        public static final int boton06=0x7f060007;
+        public static final int boton07=0x7f060008;
+        public static final int boton08=0x7f060009;
+        public static final int boton09=0x7f06000a;
+        public static final int boton10=0x7f06000b;
+        public static final int boton11=0x7f06000c;
+        public static final int boton12=0x7f06000d;
+        public static final int boton13=0x7f06000e;
+        public static final int boton14=0x7f06000f;
+        public static final int boton15=0x7f060010;
+        public static final int boton16=0x7f060011;
+        public static final int boton17=0x7f060012;
+        public static final int boton18=0x7f060013;
+        public static final int boton19=0x7f060014;
+        public static final int boton20=0x7f060015;
+        public static final int boton21=0x7f060016;
+        public static final int boton22=0x7f060017;
+        public static final int boton23=0x7f060018;
+        public static final int boton24=0x7f060019;
+        public static final int boton25=0x7f06001a;
+        public static final int boton26=0x7f06001b;
+        public static final int boton27=0x7f06001c;
     }
     public static final class style {
         /** 

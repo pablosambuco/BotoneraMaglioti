@@ -9,246 +9,254 @@ import android.widget.Button;
 
 public class MainActivity extends Activity {
 
+	private MediaPlayer mp;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		Button boton01 = (Button) this.findViewById(R.id.boton01);
+		Button boton02 = (Button) this.findViewById(R.id.boton02);
+		Button boton03 = (Button) this.findViewById(R.id.boton03);
+		Button boton04 = (Button) this.findViewById(R.id.boton04);
+		Button boton05 = (Button) this.findViewById(R.id.boton05);
+		Button boton06 = (Button) this.findViewById(R.id.boton06);
+		Button boton07 = (Button) this.findViewById(R.id.boton07);
+		Button boton08 = (Button) this.findViewById(R.id.boton08);
+		Button boton09 = (Button) this.findViewById(R.id.boton09);
+		Button boton10 = (Button) this.findViewById(R.id.boton10);
+		Button boton11 = (Button) this.findViewById(R.id.boton11);
+		Button boton12 = (Button) this.findViewById(R.id.boton12);
+		Button boton13 = (Button) this.findViewById(R.id.boton13);
+		Button boton14 = (Button) this.findViewById(R.id.boton14);
+		Button boton15 = (Button) this.findViewById(R.id.boton15);
+		Button boton16 = (Button) this.findViewById(R.id.boton16);
+		Button boton17 = (Button) this.findViewById(R.id.boton17);
+		Button boton18 = (Button) this.findViewById(R.id.boton18);
+		Button boton19 = (Button) this.findViewById(R.id.boton19);
+		Button boton20 = (Button) this.findViewById(R.id.boton20);
+		Button boton21 = (Button) this.findViewById(R.id.boton21);
+		Button boton22 = (Button) this.findViewById(R.id.boton22);
+		Button boton23 = (Button) this.findViewById(R.id.boton23);
+		Button boton24 = (Button) this.findViewById(R.id.boton24);
+		Button boton25 = (Button) this.findViewById(R.id.boton25);
+		Button boton26 = (Button) this.findViewById(R.id.boton26);
+		Button boton27 = (Button) this.findViewById(R.id.boton27);
 
-		final MediaPlayer mpBotonera = MediaPlayer.create(this,
-				R.raw.gaglioti_bardero__99__botonera);
-		final MediaPlayer mpBardero01 = MediaPlayer.create(this,
-				R.raw.gaglioti_bardero__01__dieguez);
-		final MediaPlayer mpBardero02 = MediaPlayer.create(this,
-				R.raw.gaglioti_bardero__02__san_valentin);
-		final MediaPlayer mpBardero03 = MediaPlayer.create(this,
-				R.raw.gaglioti_bardero__03__valerio_interes);
-		final MediaPlayer mpBardero04 = MediaPlayer.create(this,
-				R.raw.gaglioti_bardero__04__aplicaciones);
-		final MediaPlayer mpBardero05 = MediaPlayer.create(this,
-				R.raw.gaglioti_bardero__05__mulo);
-		final MediaPlayer mpBardero06 = MediaPlayer.create(this,
-				R.raw.gaglioti_bardero__06__seis_partidos);
-		final MediaPlayer mpBardero07 = MediaPlayer.create(this,
-				R.raw.gaglioti_bardero__07__valerio_pes);
-		final MediaPlayer mpBardero08 = MediaPlayer.create(this,
-				R.raw.gaglioti_bardero__08__mulo_gato);
-		final MediaPlayer mpBardero09 = MediaPlayer.create(this,
-				R.raw.gaglioti_bardero__09__gato_mulo);
-		final MediaPlayer mpBardero10 = MediaPlayer.create(this,
-				R.raw.gaglioti_bardero__10__dormir);
-		final MediaPlayer mpBardero11 = MediaPlayer.create(this,
-				R.raw.gaglioti_bardero__11__que_pasa_que);
-		final MediaPlayer mpBostero01 = MediaPlayer.create(this,
-				R.raw.gaglioti_bostero__01__no_somo);
-		final MediaPlayer mpBostero02 = MediaPlayer.create(this,
-				R.raw.gaglioti_bostero__02__no_somo_remix);
-		final MediaPlayer mpBostero03 = MediaPlayer.create(this,
-				R.raw.gaglioti_bostero__03__carpintero);
-		final MediaPlayer mpEbrio01 = MediaPlayer.create(this,
-				R.raw.gaglioti_ebrio__01__deudas);
-		final MediaPlayer mpFiesta01 = MediaPlayer.create(this,
-				R.raw.gaglioti_fiesta__01__ruido);
-		final MediaPlayer mpMadrid01 = MediaPlayer.create(this,
-				R.raw.gaglioti_madrid__01__intratable);
-		final MediaPlayer mpMadrid02 = MediaPlayer.create(this,
-				R.raw.gaglioti_madrid__02__gano);
-		final MediaPlayer mpMisc01 = MediaPlayer.create(this,
-				R.raw.gaglioti_misc__01__luis);
-		final MediaPlayer mpMisc02 = MediaPlayer.create(this,
-				R.raw.gaglioti_misc__02__la_flecha);
-		final MediaPlayer mpMisc03 = MediaPlayer.create(this,
-				R.raw.gaglioti_misc__03__lalalala);
-		final MediaPlayer mpMusic01 = MediaPlayer.create(this,
-				R.raw.gaglioti_music__01__no_culpes);
-		final MediaPlayer mpMusic02 = MediaPlayer.create(this,
-				R.raw.gaglioti_music__02__ya_tu_sabes);
-		final MediaPlayer mpMusic03 = MediaPlayer.create(this,
-				R.raw.gaglioti_music__03__adelante);
-		final MediaPlayer mpMusic04 = MediaPlayer.create(this,
-				R.raw.gaglioti_music__04__como_dice);
-		final MediaPlayer mpRata01 = MediaPlayer.create(this,
-				R.raw.gaglioti_rata__01__cama);
-
-		Button botonBotonera = (Button) this.findViewById(R.id.BotonBotonera);
-		botonBotonera.setOnClickListener(new View.OnClickListener() {
+		boton01.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				mpBotonera.start();
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_bardero__99__botonera);
+				mp.start();
 			}
 		});
 
-		Button botonBostero01 = (Button) this.findViewById(R.id.BotonBostero01);
-		botonBostero01.setOnClickListener(new View.OnClickListener() {
+		boton02.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				mpBostero01.start();
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_bardero__01__dieguez);
+				mp.start();
 			}
 		});
 
-		Button botonBostero02 = (Button) this.findViewById(R.id.BotonBostero02);
-		botonBostero02.setOnClickListener(new View.OnClickListener() {
+		boton03.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				mpBostero02.start();
-			}
-		});
-		Button botonBostero03 = (Button) this.findViewById(R.id.BotonBostero03);
-		botonBostero03.setOnClickListener(new View.OnClickListener() {
-			public void onClick(View v) {
-				mpBostero03.start();
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_bardero__02__san_valentin);
+				mp.start();
 			}
 		});
 
-		Button botonBardero01 = (Button) this.findViewById(R.id.BotonBardero01);
-		botonBardero01.setOnClickListener(new View.OnClickListener() {
+		boton04.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				mpBardero01.start();
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_bardero__03__valerio_interes);
+				mp.start();
 			}
 		});
 
-		Button botonBardero02 = (Button) this.findViewById(R.id.BotonBardero02);
-		botonBardero02.setOnClickListener(new View.OnClickListener() {
+		boton05.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				mpBardero02.start();
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_bardero__04__aplicaciones);
+				mp.start();
 			}
 		});
 
-		Button botonBardero03 = (Button) this.findViewById(R.id.BotonBardero03);
-		botonBardero03.setOnClickListener(new View.OnClickListener() {
+		boton06.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				mpBardero03.start();
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_bardero__05__mulo);
+				mp.start();
+			}
+		});
+		
+		boton07.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_bardero__06__seis_partidos);
+				mp.start();
+			}
+		});
+		
+		boton08.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_bardero__07__valerio_pes);
+				mp.start();
+			}
+		});
+		
+		boton09.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_bardero__08__mulo_gato);
+				mp.start();
 			}
 		});
 
-		Button botonBardero04 = (Button) this.findViewById(R.id.BotonBardero04);
-		botonBardero04.setOnClickListener(new View.OnClickListener() {
+		boton10.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				mpBardero04.start();
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_bardero__09__gato_mulo);
+				mp.start();
+			}
+		});
+		
+		boton11.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_bardero__10__dormir);
+				mp.start();
+			}
+		});
+		
+		boton12.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_bardero__11__que_pasa_que);
+				mp.start();
 			}
 		});
 
-		Button botonBardero05 = (Button) this.findViewById(R.id.BotonBardero05);
-		botonBardero05.setOnClickListener(new View.OnClickListener() {
+		boton13.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				mpBardero05.start();
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_bostero__01__no_somo);
+				mp.start();
 			}
 		});
 
-		Button botonBardero06 = (Button) this.findViewById(R.id.BotonBardero06);
-		botonBardero06.setOnClickListener(new View.OnClickListener() {
+		boton14.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				mpBardero06.start();
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_bostero__02__no_somo_remix);
+				mp.start();
 			}
 		});
 
-		Button botonBardero07 = (Button) this.findViewById(R.id.BotonBardero07);
-		botonBardero07.setOnClickListener(new View.OnClickListener() {
+		boton15.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				mpBardero07.start();
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_bostero__03__carpintero);
+				mp.start();
 			}
 		});
 
-		Button botonBardero08 = (Button) this.findViewById(R.id.BotonBardero08);
-		botonBardero08.setOnClickListener(new View.OnClickListener() {
+		boton16.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				mpBardero08.start();
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_ebrio__01__deudas);
+				mp.start();
+			}
+		});
+		
+		boton17.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_fiesta__01__ruido);
+				mp.start();
 			}
 		});
 
-		Button botonBardero09 = (Button) this.findViewById(R.id.BotonBardero09);
-		botonBardero09.setOnClickListener(new View.OnClickListener() {
+		boton18.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				mpBardero09.start();
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_madrid__01__intratable);
+				mp.start();
 			}
 		});
 
-		Button botonBardero10 = (Button) this.findViewById(R.id.BotonBardero10);
-		botonBardero10.setOnClickListener(new View.OnClickListener() {
+		boton19.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				mpBardero10.start();
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_madrid__02__gano);
+				mp.start();
 			}
 		});
 
-		Button botonBardero11 = (Button) this.findViewById(R.id.BotonBardero11);
-		botonBardero11.setOnClickListener(new View.OnClickListener() {
+		boton20.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				mpBardero11.start();
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_misc__01__luis);
+				mp.start();
+			}
+		});
+		
+		boton21.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_misc__02__la_flecha);
+				mp.start();
 			}
 		});
 
-		Button botonEbrio01 = (Button) this.findViewById(R.id.BotonEbrio01);
-		botonEbrio01.setOnClickListener(new View.OnClickListener() {
+		boton22.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				mpEbrio01.start();
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_misc__03__lalalala);
+				mp.start();
 			}
 		});
 
-		Button botonFiesta01 = (Button) this.findViewById(R.id.BotonFiesta01);
-		botonFiesta01.setOnClickListener(new View.OnClickListener() {
+		boton23.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				mpFiesta01.start();
-			}
-		});
-		Button botonMadrid01 = (Button) this.findViewById(R.id.BotonMadrid01);
-		botonMadrid01.setOnClickListener(new View.OnClickListener() {
-			public void onClick(View v) {
-				mpMadrid01.start();
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_music__01__no_culpes);
+				mp.start();
 			}
 		});
 
-		Button botonMadrid02 = (Button) this.findViewById(R.id.BotonMadrid02);
-		botonMadrid02.setOnClickListener(new View.OnClickListener() {
+		boton24.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				mpMadrid02.start();
-			}
-		});
-		Button botonMisc01 = (Button) this.findViewById(R.id.BotonMisc01);
-		botonMisc01.setOnClickListener(new View.OnClickListener() {
-			public void onClick(View v) {
-				mpMisc01.start();
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_music__02__ya_tu_sabes);
+				mp.start();
 			}
 		});
 
-		Button botonMisc02 = (Button) this.findViewById(R.id.BotonMisc02);
-		botonMisc02.setOnClickListener(new View.OnClickListener() {
+		boton25.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				mpMisc02.start();
-			}
-		});
-		Button botonMisc03 = (Button) this.findViewById(R.id.BotonMisc03);
-		botonMisc03.setOnClickListener(new View.OnClickListener() {
-			public void onClick(View v) {
-				mpMisc03.start();
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_music__03__adelante);
+				mp.start();
 			}
 		});
 
-		Button botonMusic01 = (Button) this.findViewById(R.id.BotonMusic01);
-		botonMusic01.setOnClickListener(new View.OnClickListener() {
+		boton26.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				mpMusic01.start();
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_music__04__como_dice);
+				mp.start();
 			}
 		});
 
-		Button botonMusic02 = (Button) this.findViewById(R.id.BotonMusic02);
-		botonMusic02.setOnClickListener(new View.OnClickListener() {
+		boton27.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				mpMusic02.start();
-			}
-		});
-		Button botonMusic03 = (Button) this.findViewById(R.id.BotonMusic03);
-		botonMusic03.setOnClickListener(new View.OnClickListener() {
-			public void onClick(View v) {
-				mpMusic03.start();
-			}
-		});
-		Button botonMusic04 = (Button) this.findViewById(R.id.BotonMusic04);
-		botonMusic04.setOnClickListener(new View.OnClickListener() {
-			public void onClick(View v) {
-				mpMusic04.start();
-			}
-		});
-
-		Button botonRata01 = (Button) this.findViewById(R.id.BotonRata01);
-		botonRata01.setOnClickListener(new View.OnClickListener() {
-			public void onClick(View v) {
-				mpRata01.start();
+				if(mp != null) mp.stop();
+				mp = MediaPlayer.create(MainActivity.this,R.raw.gaglioti_rata__01__cama);
+				mp.start();
 			}
 		});
 
@@ -259,6 +267,19 @@ public class MainActivity extends Activity {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
+	}
+	
+	@Override
+	protected void onStop() {
+	    super.onStop();
+	    // DEALLOCATE ALL MEMORY
+	    if (mp != null) {
+	        if (mp.isPlaying()) {
+	            mp.stop();
+	        }
+	        mp.release();
+	        mp = null;
+	    }
 	}
 
 }

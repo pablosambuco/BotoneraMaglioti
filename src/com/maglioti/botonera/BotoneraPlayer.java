@@ -9,7 +9,8 @@ import android.widget.Button;
 public class BotoneraPlayer {
 	
 	static BotoneraPlayer instancia;
-	MediaPlayer mp; 
+	MediaPlayer mp;
+	Botonera botonera;
 	
 	public static BotoneraPlayer getInstance()
 	{
@@ -17,13 +18,14 @@ public class BotoneraPlayer {
 		return instancia;
 	}
 	
-	public void reproducir(Context context, int resId, final Button botonStop) {
+	public void reproducir(Context contexto, int resId, final Button botonStop) {
+		Botonera.ocultarStop();
 		botonStop.setVisibility(View.VISIBLE);
 		if(mp != null) mp.stop();
-		mp = MediaPlayer.create(context, resId);
+		mp = MediaPlayer.create(contexto, resId);
 		mp.setOnCompletionListener(new OnCompletionListener() {
 			public void onCompletion(MediaPlayer mp) {
-				botonStop.setVisibility(View.GONE);
+				Botonera.ocultarStop();
 			}
 		});
 		mp.start();

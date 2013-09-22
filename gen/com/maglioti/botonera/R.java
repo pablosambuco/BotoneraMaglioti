@@ -24,100 +24,51 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f09001b;
-        public static final int boton01=0x7f090000;
-        public static final int boton02=0x7f090001;
-        public static final int boton03=0x7f090002;
-        public static final int boton04=0x7f090003;
-        public static final int boton05=0x7f090004;
-        public static final int boton06=0x7f090005;
-        public static final int boton07=0x7f090006;
-        public static final int boton08=0x7f090007;
-        public static final int boton09=0x7f090008;
-        public static final int boton10=0x7f090009;
-        public static final int boton11=0x7f09000a;
-        public static final int boton12=0x7f09000b;
-        public static final int boton13=0x7f09000c;
-        public static final int boton14=0x7f09000d;
-        public static final int boton15=0x7f09000e;
-        public static final int boton16=0x7f09000f;
-        public static final int boton17=0x7f090010;
-        public static final int boton18=0x7f090011;
-        public static final int boton19=0x7f090012;
-        public static final int boton20=0x7f090013;
-        public static final int boton21=0x7f090014;
-        public static final int boton22=0x7f090015;
-        public static final int boton23=0x7f090016;
-        public static final int boton24=0x7f090017;
-        public static final int boton25=0x7f090018;
-        public static final int boton26=0x7f090019;
-        public static final int boton27=0x7f09001a;
+        public static final int action_settings=0x7f090002;
+        public static final int boton=0x7f090001;
+        public static final int parentView=0x7f090000;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+        public static final int row=0x7f030001;
     }
     public static final class menu {
         public static final int main=0x7f080000;
     }
     public static final class raw {
-        public static final int gaglioti_bardero__01__dieguez=0x7f040000;
-        public static final int gaglioti_bardero__02__san_valentin=0x7f040001;
-        public static final int gaglioti_bardero__03__valerio_interes=0x7f040002;
-        public static final int gaglioti_bardero__04__aplicaciones=0x7f040003;
-        public static final int gaglioti_bardero__05__mulo=0x7f040004;
-        public static final int gaglioti_bardero__06__seis_partidos=0x7f040005;
-        public static final int gaglioti_bardero__07__valerio_pes=0x7f040006;
-        public static final int gaglioti_bardero__08__mulo_gato=0x7f040007;
-        public static final int gaglioti_bardero__09__gato_mulo=0x7f040008;
-        public static final int gaglioti_bardero__10__dormir=0x7f040009;
-        public static final int gaglioti_bardero__11__que_pasa_que=0x7f04000a;
-        public static final int gaglioti_bardero__99__botonera=0x7f04000b;
-        public static final int gaglioti_bostero__01__no_somo=0x7f04000c;
-        public static final int gaglioti_bostero__02__no_somo_remix=0x7f04000d;
-        public static final int gaglioti_bostero__03__carpintero=0x7f04000e;
-        public static final int gaglioti_ebrio__01__deudas=0x7f04000f;
-        public static final int gaglioti_fiesta__01__ruido=0x7f040010;
-        public static final int gaglioti_madrid__01__intratable=0x7f040011;
-        public static final int gaglioti_madrid__02__gano=0x7f040012;
-        public static final int gaglioti_misc__01__luis=0x7f040013;
-        public static final int gaglioti_misc__02__la_flecha=0x7f040014;
-        public static final int gaglioti_misc__03__lalalala=0x7f040015;
-        public static final int gaglioti_music__01__no_culpes=0x7f040016;
-        public static final int gaglioti_music__02__ya_tu_sabes=0x7f040017;
-        public static final int gaglioti_music__03__adelante=0x7f040018;
-        public static final int gaglioti_music__04__como_dice=0x7f040019;
-        public static final int gaglioti_rata__01__cama=0x7f04001a;
+        public static final int bardero_00_botonera=0x7f040000;
+        public static final int bardero_01_dieguez=0x7f040001;
+        public static final int bardero_02_san_valentin=0x7f040002;
+        public static final int bardero_03_valerio_interes=0x7f040003;
+        public static final int bardero_04_aplicaciones=0x7f040004;
+        public static final int bardero_05_mulo=0x7f040005;
+        public static final int bardero_06_seis_partidos=0x7f040006;
+        public static final int bardero_07_valerio_pes=0x7f040007;
+        public static final int bardero_08_mulo_gato=0x7f040008;
+        public static final int bardero_09_gato_mulo=0x7f040009;
+        public static final int bardero_10_dormir=0x7f04000a;
+        public static final int bardero_11_que_pasa_que=0x7f04000b;
+        public static final int bostero_01_no_somo=0x7f04000c;
+        public static final int bostero_02_no_somo_remix=0x7f04000d;
+        public static final int bostero_03_carpintero=0x7f04000e;
+        public static final int ebrio_01_deudas=0x7f04000f;
+        public static final int fiesta_01_ruido=0x7f040010;
+        public static final int madrid_01_intratable=0x7f040011;
+        public static final int madrid_02_gano=0x7f040012;
+        public static final int misc_01_luis=0x7f040013;
+        public static final int misc_02_la_flecha=0x7f040014;
+        public static final int misc_03_lalalala=0x7f040015;
+        public static final int music_01_no_culpes=0x7f040016;
+        public static final int music_02_ya_tu_sabes=0x7f040017;
+        public static final int music_03_adelante=0x7f040018;
+        public static final int music_04_como_dice=0x7f040019;
+        public static final int rata_01_cama=0x7f04001a;
+        public static final int x_bonus_cabrera_mulos=0x7f04001b;
+        public static final int x_bonus_valerio_monitos=0x7f04001c;
     }
     public static final class string {
         public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
-        public static final int boton01=0x7f060002;
-        public static final int boton02=0x7f060003;
-        public static final int boton03=0x7f060004;
-        public static final int boton04=0x7f060005;
-        public static final int boton05=0x7f060006;
-        public static final int boton06=0x7f060007;
-        public static final int boton07=0x7f060008;
-        public static final int boton08=0x7f060009;
-        public static final int boton09=0x7f06000a;
-        public static final int boton10=0x7f06000b;
-        public static final int boton11=0x7f06000c;
-        public static final int boton12=0x7f06000d;
-        public static final int boton13=0x7f06000e;
-        public static final int boton14=0x7f06000f;
-        public static final int boton15=0x7f060010;
-        public static final int boton16=0x7f060011;
-        public static final int boton17=0x7f060012;
-        public static final int boton18=0x7f060013;
-        public static final int boton19=0x7f060014;
-        public static final int boton20=0x7f060015;
-        public static final int boton21=0x7f060016;
-        public static final int boton22=0x7f060017;
-        public static final int boton23=0x7f060018;
-        public static final int boton24=0x7f060019;
-        public static final int boton25=0x7f06001a;
-        public static final int boton26=0x7f06001b;
-        public static final int boton27=0x7f06001c;
     }
     public static final class style {
         /** 

@@ -14,13 +14,13 @@ public class BotoneraPlayer {
 		return instancia;
 	}
 	
-	public void play(Context context, int resId) {
+	public void reproducir(Context context, int resId) {
 		if(mp != null) mp.stop();
 		mp = MediaPlayer.create(context, resId);
 		mp.start();
 	}
 
-	public void stop() {
+	public void detener() {
 	    if (mp != null) {
 	        if (mp.isPlaying()) {
 	            mp.stop();

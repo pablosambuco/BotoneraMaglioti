@@ -3,31 +3,4 @@
 
     <string name="app_name">Botonera Maglioti</string>
     <string name="action_settings">Que tocas? Mulo!</string>
-    <string name="boton01">Botonera</string>
-    <string name="boton02">Bardero - 01 - Dieguez</string>
-    <string name="boton03">Bardero - 02 - San Valentin</string>
-    <string name="boton04">Bardero - 03 - Valerio Interes</string>
-    <string name="boton05">Bardero - 04 - Aplicaciones</string>
-    <string name="boton06">Bardero - 05 - Mulo</string>
-    <string name="boton07">Bardero - 06 - Seis partidos</string>
-    <string name="boton08">Bardero - 07 - Valerio PES</string>
-    <string name="boton09">Bardero - 08 - Mulo gato</string>
-    <string name="boton10">Bardero - 09 - Gato mulo</string>
-    <string name="boton11">Bardero - 10 - Dormir</string>
-    <string name="boton12">Bardero - 11 - Que pasa que</string>
-    <string name="boton13">Bostero - 01 - No somo</string>
-    <string name="boton14">Bostero - 02 - No somo (remix)</string>
-    <string name="boton15">Bostero - 03 - Carpintero</string>
-    <string name="boton16">Ebrio - 01 - Deudas</string>
-    <string name="boton17">Fiesta - 01 - Ruido</string>
-    <string name="boton18">Madrid - 01 - Intratable</string>
-    <string name="boton19">Madrid - 02 - Gano</string>
-    <string name="boton20">Misc - 01 - Luis</string>
-    <string name="boton21">Misc - 02 - La flecha</string>
-    <string name="boton22">Misc - 03 - Lalalala</string>
-    <string name="boton23">Music - 01 - No culpes</string>
-    <string name="boton24">Music - 02 - Ya tu sabes</string>
-    <string name="boton25">Music - 03 - Adelante</string>
-    <string name="boton26">Music - 04 - Como dice</string>
-    <string name="boton27">Rata - 01 - Cama</string>
 </resources>

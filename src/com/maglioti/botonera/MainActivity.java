@@ -56,14 +56,25 @@ public class MainActivity extends Activity {
 		LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 		final View rowView = inflater.inflate(R.layout.row, null);
 		final Button boton = (Button) rowView.findViewById(R.id.boton);
+		final Button botonStop = (Button) rowView.findViewById(R.id.boton_stop);
+		
 		boton.setText(formatearTexto(texto));
 
 		boton.setOnClickListener(new View.OnClickListener() {
 			public void onClick(View v) {
-				BotoneraPlayer.getInstance().reproducir(MainActivity.this,
-						resId);
+				BotoneraPlayer.getInstance().reproducir(MainActivity.this,resId,botonStop);
 			}
 		});
+		botonStop.setVisibility(View.GONE);
+
+		botonStop.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View v) {
+				BotoneraPlayer.getInstance().detener();
+				botonStop.setVisibility(View.GONE);
+				boton.setWidth(2000);
+			}
+		});
+
 		contenido.addView(rowView, contenido.getChildCount());
 	}
 
